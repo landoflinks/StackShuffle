@@ -11,9 +11,25 @@
         <StackPanel>
             <TabControl Height="445" Margin="0 0 0 2">
                 <TabItem Header="Borrow">
-                    <Grid Background="#FFE5E5E5"/>
-
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <ComboBox x:Name="GenreDropDown" SelectedIndex="0">
+                                <ComboBoxItem>Adventure</ComboBoxItem>
+                                <ComboBoxItem>Romance</ComboBoxItem>
+                                <ComboBoxItem>Fantasy</ComboBoxItem>
+                                <ComboBoxItem>Science Fiction</ComboBoxItem>
+                                <ComboBoxItem>History</ComboBoxItem>
+                                <ComboBoxItem>Mythology</ComboBoxItem>
+                                <ComboBoxItem>Comedy</ComboBoxItem>
+                                <ComboBoxItem>Thriller</ComboBoxItem>
+                                <ComboBoxItem>Horror</ComboBoxItem>
+                                <ComboBoxItem>Auto/Biograhy</ComboBoxItem>
+                                <ComboBoxItem>Education</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                    </Grid>
                 </TabItem>
+                
                 <TabItem Header="Return">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
