@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StackShuffle"
         mc:Ignorable="d"
-        Title="StackShuffle" Height="350" Width="525">
+        Title="StackShuffle" Height="500" Width="400">
 
-    <Border Padding="5">
+    <Border Padding="5" Margin="0 0 0 20">
         <TabControl>
-            <TabItem Header="TabItem">
+            <TabItem Header="Borrow">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
-            <TabItem Header="TabItem">
+            <TabItem Header="Return">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
