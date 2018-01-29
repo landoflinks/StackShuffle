@@ -12,8 +12,14 @@
             <TabControl Height="445" Margin="0 0 0 2">
                 <TabItem Header="Borrow">
                     <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
                         <StackPanel>
-                            <ComboBox x:Name="GenreDropDown" SelectedIndex="0">
+
+                            <TextBlock Text="Genre" Padding="2" />
+                            <ComboBox x:Name="GenreDropDown">
                                 <ComboBoxItem>Adventure</ComboBoxItem>
                                 <ComboBoxItem>Romance</ComboBoxItem>
                                 <ComboBoxItem>Fantasy</ComboBoxItem>
@@ -23,7 +29,7 @@
                                 <ComboBoxItem>Comedy</ComboBoxItem>
                                 <ComboBoxItem>Thriller</ComboBoxItem>
                                 <ComboBoxItem>Horror</ComboBoxItem>
-                                <ComboBoxItem>Auto/Biograhy</ComboBoxItem>
+                                <ComboBoxItem>Auto/Biography</ComboBoxItem>
                                 <ComboBoxItem>Education</ComboBoxItem>
                             </ComboBox>
                         </StackPanel>
