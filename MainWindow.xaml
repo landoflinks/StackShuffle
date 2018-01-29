@@ -10,13 +10,18 @@
     <Border Padding="5">
         <StackPanel>
             <TabControl Height="445" Margin="0 0 0 2">
+                <!-- Tab for borrowing a book. -->
                 <TabItem Header="Borrow">
                     <Grid Background="#FFE5E5E5">
+
+                        <!-- Declaring Grid Columns -->
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <StackPanel>
+
+                        <!-- StackPanel for first column. -->
+                        <StackPanel Grid.Column="0">
 
                             <TextBlock Text="Genre" Padding="2" />
                             <ComboBox x:Name="GenreDropDown">
@@ -33,9 +38,15 @@
                                 <ComboBoxItem>Education</ComboBoxItem>
                             </ComboBox>
                         </StackPanel>
+
+                        <!-- StackPanel for second column/row. -->
+                        <StackPanel Grid.Column="1">
+                            
+                        </StackPanel>
                     </Grid>
                 </TabItem>
                 
+                <!-- Tab for returning a book. -->
                 <TabItem Header="Return">
                     <Grid Background="#FFE5E5E5"/>
                 </TabItem>
