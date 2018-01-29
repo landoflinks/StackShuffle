@@ -57,6 +57,14 @@
                                 <ComboBoxItem>18+</ComboBoxItem>
                                 <ComboBoxItem>Surprise Me!</ComboBoxItem>
                             </ComboBox>
+                            
+                            <!-- Checkbox section for content we want to avoid. -->
+                            <TextBlock Text="Themes to Avoid" Padding="5" />
+                            <CheckBox x:Name="SCCheckbox" Content="Sexual Content" Margin="5 0 0 0" />
+                            <CheckBox x:Name="NudityCheckbox" Content="Nudity" Margin="5 0 0 0" />
+                            <CheckBox x:Name="ViolenceCheckbox" Content="Violence" Margin="5 0 0 0" />
+                            <CheckBox x:Name="ProfanityCheckbox" Content="Profanity" Margin="5 0 0 0" />
+                            <CheckBox x:Name="ReligiousCheckbox" Content="Religious Themes" Margin="5 0 0 0" />
                         </StackPanel>
 
                         <!-- StackPanel for second column/row. -->
