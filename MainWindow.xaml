@@ -22,13 +22,16 @@
 
                         <!-- StackPanel for first column. -->
                         <StackPanel Grid.Column="0">
+                            
+                            <!-- Radio button for fiction -->
                             <RadioButton Margin="5 5 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Fiction" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
                             </RadioButton>
 
-                            <TextBlock Text="Genre" Padding="2" />
+                            <!-- Section for genre -->
+                            <TextBlock Text="Genre" Padding="5" />
                             <ComboBox x:Name="GenreDropDown">
                                 <ComboBoxItem>Adventure</ComboBoxItem>
                                 <ComboBoxItem>Romance</ComboBoxItem>
@@ -46,13 +49,21 @@
 
                         <!-- StackPanel for second column/row. -->
                         <StackPanel Grid.Column="1">
+                            
+                            <!-- Radio button for non-fiction. -->
                             <RadioButton Margin="5 5 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Non-Fiction" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
                             </RadioButton>
-                            
-                            
+
+                            <!-- Checkbox area for sub-genres. -->
+                            <TextBlock Text="Sub-Genres" Padding="5" />
+                            <CheckBox x:Name="MysteryCheckbox" Content="Mystery" Margin="5 0 0 0" />
+                            <CheckBox x:Name="RomanceCheckbox" Content="Romance" Margin="5 0 0 0" />
+                            <CheckBox x:Name="ComedyCheckbox" Content="Comedy" Margin="5 0 0 0" />
+                            <CheckBox x:Name="HorrorCheckbox" Content="Horror" Margin="5 0 0 0" />
+
                         </StackPanel>
                     </Grid>
                 </TabItem>
