@@ -22,6 +22,11 @@
 
                         <!-- StackPanel for first column. -->
                         <StackPanel Grid.Column="0">
+                            <RadioButton Margin="5 5 0 0">
+                                <RadioButton.Content>
+                                    <TextBlock Text="Fiction" TextWrapping="Wrap"/>
+                                </RadioButton.Content>
+                            </RadioButton>
 
                             <TextBlock Text="Genre" Padding="2" />
                             <ComboBox x:Name="GenreDropDown">
@@ -41,6 +46,12 @@
 
                         <!-- StackPanel for second column/row. -->
                         <StackPanel Grid.Column="1">
+                            <RadioButton Margin="5 5 0 0">
+                                <RadioButton.Content>
+                                    <TextBlock Text="Non-Fiction" TextWrapping="Wrap"/>
+                                </RadioButton.Content>
+                            </RadioButton>
+                            
                             
                         </StackPanel>
                     </Grid>
