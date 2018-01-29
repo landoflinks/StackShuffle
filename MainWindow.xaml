@@ -45,6 +45,18 @@
                                 <ComboBoxItem>Auto/Biography</ComboBoxItem>
                                 <ComboBoxItem>Education</ComboBoxItem>
                             </ComboBox>
+
+                            <!-- Section for age group -->
+                            <TextBlock Text="Age Group" Padding="5" />
+                            <ComboBox x:Name="AgeDropDown">
+                                <ComboBoxItem>0-3</ComboBoxItem>
+                                <ComboBoxItem>4-6</ComboBoxItem>
+                                <ComboBoxItem>6-9</ComboBoxItem>
+                                <ComboBoxItem>9-12</ComboBoxItem>
+                                <ComboBoxItem>13-18</ComboBoxItem>
+                                <ComboBoxItem>18+</ComboBoxItem>
+                                <ComboBoxItem>Surprise Me!</ComboBoxItem>
+                            </ComboBox>
                         </StackPanel>
 
                         <!-- StackPanel for second column/row. -->
