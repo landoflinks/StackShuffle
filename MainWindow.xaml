@@ -83,6 +83,23 @@
                             <CheckBox x:Name="RomanceCheckbox" Content="Romance" Margin="5 0 0 0" />
                             <CheckBox x:Name="ComedyCheckbox" Content="Comedy" Margin="5 0 0 0" />
                             <CheckBox x:Name="HorrorCheckbox" Content="Horror" Margin="5 0 0 0" />
+                            
+                            <!-- Text area for preferred authors. -->
+                            <TextBlock Text="Preferred Authors?" Padding="5" FontWeight="Bold" />
+                            <TextBox Text="e.g. Mark Twain" Margin="5 0 0 0" />
+
+                            <!-- Radio buttons for book format. -->
+                            <TextBlock Text="Book Format" Padding="5" FontWeight="Bold" />
+                            <RadioButton Margin="5 0 0 0">
+                                <RadioButton.Content>
+                                    <TextBlock Text="Physical" TextWrapping="Wrap"/>
+                                </RadioButton.Content>
+                            </RadioButton>
+                            <RadioButton Margin="5 0 0 0">
+                                <RadioButton.Content>
+                                    <TextBlock Text="Digital" TextWrapping="Wrap"/>
+                                </RadioButton.Content>
+                            </RadioButton>
 
                         </StackPanel>
                     </Grid>
