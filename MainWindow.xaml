@@ -109,6 +109,14 @@
                                 </RadioButton.Content>
                             </RadioButton>
 
+                            <!-- Primary phone # -->
+                            <TextBlock Text="Phone Number" Padding="5" Margin=" 0 11 0 0"  FontWeight="Bold" />
+                            <TextBox Margin="5 0 0 0" />
+
+                            <!-- Primary email address -->
+                            <TextBlock Text="Email" Padding="5" FontWeight="Bold" />
+                            <TextBox Margin="5 0 0 0" />
+
                         </StackPanel>
                     </Grid>
                 </TabItem>
