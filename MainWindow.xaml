@@ -151,6 +151,10 @@
                             <TextBlock Text="Serial #" Padding="5" FontWeight="Bold" />
                             <TextBox Margin="5 0 120 0" />
 
+                            <!-- Author -->
+                            <TextBlock Text="Author" Padding="5" FontWeight="Bold" />
+                            <TextBox Margin="5 0 120 0" />
+
                         </StackPanel>
                     </Grid>
                 </TabItem>
