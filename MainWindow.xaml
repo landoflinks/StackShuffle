@@ -141,7 +141,18 @@
                 
                 <!-- Tab for returning a book. -->
                 <TabItem Header="Return">
-                    <Grid Background="#FFE5E5E5"/>
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel Grid.Column="1">
+                            <!-- Book title -->
+                            <TextBlock Text="Book Title" Padding="5" FontWeight="Bold" />
+                            <TextBox Margin="5 0 120 0" />
+
+                            <!-- Book serial # -->
+                            <TextBlock Text="Serial #" Padding="5" FontWeight="Bold" />
+                            <TextBox Margin="5 0 120 0" />
+
+                        </StackPanel>
+                    </Grid>
                 </TabItem>
             </TabControl>
             <TextBlock Text="Copyright Library Freaks, Inc. circa 2018. All rights reserved." FontSize="10" FontWeight="Bold" />
