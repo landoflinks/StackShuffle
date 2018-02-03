@@ -24,5 +24,10 @@ namespace StackShuffle
         {
             InitializeComponent();
         }
+
+        private void Reset2Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

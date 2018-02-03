@@ -190,7 +190,7 @@
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">
-                            <Button x:Name="Reset2Button" Margin="5 355 10 0" Content="Reset"/>
+                            <Button x:Name="Reset2Button" Click="Reset2Button_Click" Margin="5 355 10 0" Content="Reset"/>
                         </StackPanel>
                     </Grid>
                 </TabItem>
