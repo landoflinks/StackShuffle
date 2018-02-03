@@ -150,15 +150,15 @@
                         <StackPanel Grid.Column="0">
                             <!-- Book title -->
                             <TextBlock Text="Book Title" Padding="5" FontWeight="Bold" />
-                            <TextBox Margin="5 0 50 0" />
+                            <TextBox x:Name="TitleTextBox" Margin="5 0 50 0" />
 
                             <!-- Book serial # -->
                             <TextBlock Text="Serial #" Padding="5" FontWeight="Bold" />
-                            <TextBox Margin="5 0 50 0" />
+                            <TextBox x:Name="SerialTextBox" Margin="5 0 50 0" />
 
                             <!-- Author -->
                             <TextBlock Text="Author" Padding="5" FontWeight="Bold" />
-                            <TextBox Margin="5 0 50 0" />
+                            <TextBox x:Name="AuthorTextBox" Margin="5 0 50 0" />
 
                             <!-- Checkboxes for reasons for returning. -->
                             <TextBlock Text="Reason(s) for Returning" Padding="5" FontWeight="Bold" />
@@ -184,7 +184,7 @@
 
                             <!-- Comments -->
                             <TextBlock Text="Comments" Padding="5" FontWeight="Bold" />
-                            <TextBox Margin="5 0 0 0" />
+                            <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" />
 
                             <Button x:Name="Submit2Button" Margin="25 15 110 0" Content="Submit" />
                         </StackPanel>
