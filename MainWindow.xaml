@@ -110,7 +110,7 @@
 
                             <!-- Radio buttons for book format. -->
                             <TextBlock Text="Book Format" Padding="5" FontWeight="Bold" />
-                            <RadioButton x:Name="PhysicalRadioButton" Margin="5 0 0 0">
+                            <RadioButton x:Name="FormatRadioButton" Margin="5 0 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Physical" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
@@ -133,7 +133,7 @@
                             <TextBlock Text="Comments" Padding="5" FontWeight="Bold" Grid.Column="1" />
                             <TextBox x:Name="CommentsTextBox" Margin="5 0 0 4" />
 
-                            <Button x:Name="ResetButton" Margin="25 15 25 0" Content="Reset" />
+                            <Button x:Name="ResetButton" Click="ResetButton_Click" Margin="25 15 25 0" Content="Reset" />
                         </StackPanel>
 
                     </Grid>

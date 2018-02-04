@@ -25,6 +25,35 @@ namespace StackShuffle
             InitializeComponent();
         }
 
+        // Resets values on the Borrow tab.
+        private void ResetButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Column 0
+            FictionRadioButton.IsChecked = false;
+            GenreDropDown.SelectedIndex = -1;
+            AgeDropDown.SelectedIndex = -1;
+            SCCheckbox.IsChecked = false;
+            NudityCheckbox.IsChecked = false;
+            ViolenceCheckbox.IsChecked = false;
+            ProfanityCheckbox.IsChecked = false;
+            ReligiousCheckbox.IsChecked = false;
+            NameTextBox.Text = "";
+            AddressTextBox.Text = "";
+            ProgramDropDown.SelectedIndex = -1;
+
+            // Column 1
+            NonFictionRadioButton.IsChecked = false;
+            MysteryCheckbox.IsChecked = false;
+            RomanceCheckbox.IsChecked = false;
+            ComedyCheckbox.IsChecked = false;
+            HorrorCheckbox.IsChecked = false;
+            AuthorTextBox.Text = "";
+            FormatRadioButton.IsChecked = false;
+            PhoneTextBox.Text = "";
+            EmailTextBox.Text = "";
+            CommentsTextBox.Text = "";
+        }
+
         // Resets values on the Return tab.
         private void Reset2Button_Click(object sender, RoutedEventArgs e)
         {
