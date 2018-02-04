@@ -25,9 +25,20 @@ namespace StackShuffle
             InitializeComponent();
         }
 
+        // Resets values on the Return tab.
         private void Reset2Button_Click(object sender, RoutedEventArgs e)
         {
-
+            TitleTextBox.Text = "";
+            SerialTextBox.Text = "";
+            Author2TextBox.Text = "";
+            FinishedCheckbox.IsChecked = false;
+            NoInterestCheckbox.IsChecked = false;
+            NoTimeCheckbox.IsChecked = false;
+            DamagedCheckbox.IsChecked = false;
+            WrongCheckbox.IsChecked = false;
+            OtherCheckbox.IsChecked = false;
+            SatisfactionDropDown.SelectedIndex = 0;
+            CommentsReturnTextBox.Text = "";
         }
     }
 }
