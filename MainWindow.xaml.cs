@@ -81,5 +81,21 @@ namespace StackShuffle
         {
             MessageBox.Show("Test", "Your return has been submitted!");
         }
+
+        private void FictionRadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (NonFictionRadioButton.IsChecked == true)
+            {
+                NonFictionRadioButton.IsChecked = false;
+            }
+        }
+
+        private void NonFictionRadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (FictionRadioButton.IsChecked == true)
+            {
+                FictionRadioButton.IsChecked = false;
+            }
+        }
     }
 }

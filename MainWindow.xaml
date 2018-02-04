@@ -24,7 +24,7 @@
                         <StackPanel Grid.Column="0">
 
                             <!-- Radio button for fiction -->
-                            <RadioButton x:Name="FictionRadioButton" Margin="5 5 0 0">
+                            <RadioButton x:Name="FictionRadioButton" Click="FictionRadioButton_Click" Margin="5 5 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Fiction" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
@@ -91,7 +91,7 @@
                         <StackPanel Grid.Column="1">
 
                             <!-- Radio button for non-fiction. -->
-                            <RadioButton x:Name="NonFictionRadioButton" Margin="5 5 0 0">
+                            <RadioButton x:Name="NonFictionRadioButton" Click="NonFictionRadioButton_Click" Margin="5 5 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Non-Fiction" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
