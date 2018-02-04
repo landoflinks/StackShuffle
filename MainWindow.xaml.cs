@@ -69,5 +69,17 @@ namespace StackShuffle
             SatisfactionDropDown.SelectedIndex = 0;
             CommentsReturnTextBox.Text = "";
         }
+
+        // Submit button for the Borrow tab. Currently just throws a test message.
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test", "Your request has been submitted!");
+        }
+
+        // Submit button for the Return tab. Currently just throws a test message.
+        private void Submit2Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test", "Your return has been submitted!");
+        }
     }
 }
