@@ -84,7 +84,7 @@
                             </ComboBox>
 
                             <!-- Submit button -->
-                            <Button x:Name="SubmitButton" Margin="25 15 25 0" Content="Submit" />
+                            <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" />
                         </StackPanel>
 
                         <!-- StackPanel for second column/row. -->
@@ -186,7 +186,7 @@
                             <TextBlock Text="Comments" Padding="5" FontWeight="Bold" />
                             <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" />
 
-                            <Button x:Name="Submit2Button" Margin="25 15 110 0" Content="Submit" />
+                            <Button x:Name="Submit2Button" Click="Submit2Button_Click" Margin="25 15 110 0" Content="Submit" />
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">
