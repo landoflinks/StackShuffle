@@ -48,7 +48,8 @@ namespace StackShuffle
             ComedyCheckbox.IsChecked = false;
             HorrorCheckbox.IsChecked = false;
             AuthorTextBox.Text = "";
-            FormatRadioButton.IsChecked = false;
+            PhysicalRadioButton.IsChecked = false;
+            DigitalRadioButton.IsChecked = false;
             PhoneTextBox.Text = "";
             EmailTextBox.Text = "";
             CommentsTextBox.Text = "";
@@ -95,6 +96,22 @@ namespace StackShuffle
             if (FictionRadioButton.IsChecked == true)
             {
                 FictionRadioButton.IsChecked = false;
+            }
+        }
+
+        private void PhysicalRadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (DigitalRadioButton.IsChecked == true)
+            {
+                DigitalRadioButton.IsChecked = false;
+            }
+        }
+
+        private void DigitalRadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (PhysicalRadioButton.IsChecked == true)
+            {
+                PhysicalRadioButton.IsChecked = false;
             }
         }
     }

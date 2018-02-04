@@ -110,12 +110,12 @@
 
                             <!-- Radio buttons for book format. -->
                             <TextBlock Text="Book Format" Padding="5" FontWeight="Bold" />
-                            <RadioButton x:Name="PhysicalRadioButton" Margin="5 0 0 0">
+                            <RadioButton x:Name="PhysicalRadioButton" Click="PhysicalRadioButton_Click" Margin="5 0 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Physical" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
                             </RadioButton>
-                            <RadioButton x:Name="DigitalRadioButton" Margin="5 0 0 0">
+                            <RadioButton x:Name="DigitalRadioButton" Click="DigitalRadioButton_Click" Margin="5 0 0 0">
                                 <RadioButton.Content>
                                     <TextBlock Text="Digital (60 Day Limit)" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
