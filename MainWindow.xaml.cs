@@ -52,7 +52,6 @@ namespace StackShuffle
             DigitalRadioButton.IsChecked = false;
             PhoneTextBox.Text = "";
             EmailTextBox.Text = "";
-            CommentsTextBox.Text = "";
         }
 
         // Resets values on the Return tab.
