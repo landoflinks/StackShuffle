@@ -112,7 +112,7 @@
                             </RadioButton>
 
                             <!-- Reading Program (can be blank) -->
-                            <TextBlock Text="Reading Program" Padding="5" FontWeight="Bold" />
+                            <TextBlock Text="Reading Program" ToolTip="Can be blank. Not always applicable." Padding="5" FontWeight="Bold" />
                             <ComboBox x:Name="ProgramDropDown" Margin="5 0 0 0" >
                                 <ComboBoxItem>Summer</ComboBoxItem>
                                 <ComboBoxItem>Winter</ComboBoxItem>
@@ -148,7 +148,7 @@
                             <TextBox x:Name="TitleTextBox" Margin="5 0 50 0" />
 
                             <!-- Book serial # -->
-                            <TextBlock Text="Serial #" Padding="5" FontWeight="Bold" />
+                            <TextBlock Text="Serial #" ToolTip="May be found on lower part of spine." Padding="5" FontWeight="Bold" />
                             <TextBox x:Name="SerialTextBox" Margin="5 0 50 0" />
 
                             <!-- Author -->
@@ -178,7 +178,7 @@
                             </ComboBox>
 
                             <!-- Comments -->
-                            <TextBlock Text="Comments" Padding="5" FontWeight="Bold" />
+                            <TextBlock Text="Comments" ToolTip="Anything else?" Padding="5" FontWeight="Bold" />
                             <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" />
 
                             <Button x:Name="Submit2Button" Click="Submit2Button_Click" Margin="25 15 110 0" Content="Submit" />
