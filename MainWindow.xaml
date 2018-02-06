@@ -29,6 +29,12 @@
                                     <TextBlock Text="Fiction" TextWrapping="Wrap"/>
                                 </RadioButton.Content>
                             </RadioButton>
+                            <!-- Radio button for non-fiction. -->
+                            <RadioButton x:Name="NonFictionRadioButton" Click="NonFictionRadioButton_Click" Margin="5 5 0 0">
+                                <RadioButton.Content>
+                                    <TextBlock Text="Non-Fiction" TextWrapping="Wrap"/>
+                                </RadioButton.Content>
+                            </RadioButton>
 
                             <!-- Section for genre -->
                             <TextBlock Text="Genre" Padding="5" FontWeight="Bold" />
@@ -74,6 +80,12 @@
                             <TextBlock Text="Address" Padding="5" FontWeight="Bold" />
                             <TextBox x:Name="AddressTextBox" Margin="5 0 0 0" />
 
+                            <!-- Submit button -->
+                            <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" />
+                        </StackPanel>
+
+                        <!-- StackPanel for second column/row. -->
+                        <StackPanel Grid.Column="1">
                             <!-- Reading Program (can be blank) -->
                             <TextBlock Text="Reading Program (If Applicable)" Padding="5" FontWeight="Bold" />
                             <ComboBox x:Name="ProgramDropDown" Margin="5 0 0 0" >
@@ -82,21 +94,7 @@
                                 <ComboBoxItem>Early Readers</ComboBoxItem>
                                 <ComboBoxItem>Library Book Club</ComboBoxItem>
                             </ComboBox>
-
-                            <!-- Submit button -->
-                            <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" />
-                        </StackPanel>
-
-                        <!-- StackPanel for second column/row. -->
-                        <StackPanel Grid.Column="1">
-
-                            <!-- Radio button for non-fiction. -->
-                            <RadioButton x:Name="NonFictionRadioButton" Click="NonFictionRadioButton_Click" Margin="5 5 0 0">
-                                <RadioButton.Content>
-                                    <TextBlock Text="Non-Fiction" TextWrapping="Wrap"/>
-                                </RadioButton.Content>
-                            </RadioButton>
-
+                            
                             <!-- Checkbox area for sub-genres. -->
                             <TextBlock Text="Sub-Genres" Padding="5" FontWeight="Bold" />
                             <CheckBox x:Name="MysteryCheckbox" Content="Mystery" Margin="5 0 0 0" />
