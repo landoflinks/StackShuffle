@@ -38,7 +38,7 @@
 
                             <!-- Section for genre -->
                             <TextBlock Text="Genre" Padding="5" FontWeight="Bold" />
-                            <ComboBox x:Name="GenreDropDown" Margin="5 0 0 0">
+                            <ComboBox x:Name="GenreDropDown" Margin="5 0 0 0" Background="White">
                                 <ComboBoxItem>Adventure</ComboBoxItem>
                                 <ComboBoxItem>Romance</ComboBoxItem>
                                 <ComboBoxItem>Fantasy</ComboBoxItem>
@@ -54,7 +54,7 @@
 
                             <!-- Section for age group -->
                             <TextBlock Text="Age Group" Padding="5" FontWeight="Bold" />
-                            <ComboBox x:Name="AgeDropDown" Margin="5 0 0 0">
+                            <ComboBox x:Name="AgeDropDown" Margin="5 0 0 0" Background="white">
                                 <ComboBoxItem>0-3</ComboBoxItem>
                                 <ComboBoxItem>4-6</ComboBoxItem>
                                 <ComboBoxItem>6-9</ComboBoxItem>
@@ -65,7 +65,7 @@
                             </ComboBox>
 
                             <!-- Checkbox section for content we want to avoid. -->
-                            <TextBlock Text="Themes to Avoid" Padding="5" FontWeight="Bold" />
+                            <TextBlock Text="Themes to Avoid" Padding="5" FontWeight="Bold"/>
                             <CheckBox x:Name="SCCheckbox" Content="Sexual Content" Margin="5 0 0 0" />
                             <CheckBox x:Name="NudityCheckbox" Content="Nudity" Margin="5 0 0 0" />
                             <CheckBox x:Name="ViolenceCheckbox" Content="Violence" Margin="5 0 0 0" />
@@ -74,11 +74,11 @@
 
                             <!-- Borrower name -->
                             <TextBlock Text="Name" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="NameTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="NameTextBox" Margin="5 0 0 0" Background="white" />
 
                             <!-- Address -->
                             <TextBlock Text="Address" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="AddressTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="AddressTextBox" Margin="5 0 0 0" Background="white" />
 
                             <!-- Submit button -->
                             <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" Background="White"/>
@@ -96,7 +96,7 @@
 
                             <!-- Text area for preferred authors. -->
                             <TextBlock Text="Preferred Authors?" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="AuthorTextBox" Margin="5 0 5 0" />
+                            <TextBox x:Name="AuthorTextBox" Margin="5 0 5 0" Background="white"/>
 
                             <!-- Radio buttons for book format. -->
                             <TextBlock Text="Book Format" Padding="5" FontWeight="Bold" />
@@ -113,7 +113,7 @@
 
                             <!-- Reading Program (can be blank) -->
                             <TextBlock Text="Reading Program" ToolTip="Can be blank. Not always applicable." Padding="5" FontWeight="Bold" />
-                            <ComboBox x:Name="ProgramDropDown" Margin="5 0 5 0" >
+                            <ComboBox x:Name="ProgramDropDown" Margin="5 0 5 0" Background="white">
                                 <ComboBoxItem>Summer</ComboBoxItem>
                                 <ComboBoxItem>Winter</ComboBoxItem>
                                 <ComboBoxItem>Early Readers</ComboBoxItem>
@@ -122,11 +122,11 @@
                             
                             <!-- Primary phone # -->
                             <TextBlock Text="Phone Number" Padding="5" Margin=" 0 3 0 0"  FontWeight="Bold" />
-                            <TextBox x:Name="PhoneTextBox" Margin="5 0 5 0" />
+                            <TextBox x:Name="PhoneTextBox" Margin="5 0 5 0" Background="white" />
 
                             <!-- Primary email address -->
                             <TextBlock Text="Email" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="EmailTextBox" Margin="5 0 5 0" />
+                            <TextBox x:Name="EmailTextBox" Margin="5 0 5 0" Background="White" />
 
                             <Button x:Name="ResetButton" Click="ResetButton_Click" Margin="25 15 25 0" Content="Reset" Background="White"/>
                         </StackPanel>
@@ -145,15 +145,15 @@
                         <StackPanel Grid.Column="0">
                             <!-- Book title -->
                             <TextBlock Text="Book Title" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="TitleTextBox" Margin="5 0 50 0" />
+                            <TextBox x:Name="TitleTextBox" Margin="5 0 50 0" Background="white"/>
 
                             <!-- Book serial # -->
                             <TextBlock Text="Serial #" ToolTip="May be found on lower part of spine." Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="SerialTextBox" Margin="5 0 50 0" />
+                            <TextBox x:Name="SerialTextBox" Margin="5 0 50 0" Background="white"/>
 
                             <!-- Author -->
                             <TextBlock Text="Author" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="Author2TextBox" Margin="5 0 50 0" />
+                            <TextBox x:Name="Author2TextBox" Margin="5 0 50 0" Background="white"/>
 
                             <!-- Checkboxes for reasons for returning. -->
                             <TextBlock Text="Reason(s) for Returning" Padding="5" FontWeight="Bold" />
@@ -166,7 +166,7 @@
 
                             <!-- ComboBox for satisfaction -->
                             <TextBlock Text="Overall Satisfaction" Padding="5" FontWeight="Bold" />
-                            <ComboBox x:Name="SatisfactionDropDown" SelectedIndex="0" Margin="5 0 50 0">
+                            <ComboBox x:Name="SatisfactionDropDown" SelectedIndex="0" Margin="5 0 50 0" Background="White">
                                 <ComboBoxItem>N/A</ComboBoxItem>
                                 <ComboBoxItem>Very Satisfied</ComboBoxItem>
                                 <ComboBoxItem>Satisfied</ComboBoxItem>
@@ -179,7 +179,7 @@
 
                             <!-- Comments -->
                             <TextBlock Text="Comments" ToolTip="Anything else?" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" Background="White"/>
 
                             <Button x:Name="Submit2Button" Click="Submit2Button_Click" Margin="25 15 110 0" Content="Submit" Background="White" />
                         </StackPanel>
