@@ -9,10 +9,10 @@
 
     <Border Padding="5">
         <StackPanel>
-            <TabControl Height="420" Margin="0 0 0 2">
+            <TabControl Height="420" Margin="0 0 0 2" Background="Black">
                 <!-- Tab for borrowing a book. -->
-                <TabItem Header="Borrow">
-                    <Grid Background="#FFE5E5E5">
+                <TabItem Header="Borrow" Background="White">
+                    <Grid Background="#FF9B96EA">
 
                         <!-- Declaring Grid Columns -->
                         <Grid.ColumnDefinitions>
@@ -81,7 +81,7 @@
                             <TextBox x:Name="AddressTextBox" Margin="5 0 0 0" />
 
                             <!-- Submit button -->
-                            <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" />
+                            <Button x:Name="SubmitButton" Click="SubmitButton_Click"  Margin="25 15 25 0" Content="Submit" Background="White"/>
                         </StackPanel>
 
                         <!-- StackPanel for second column/row. -->
@@ -96,7 +96,7 @@
 
                             <!-- Text area for preferred authors. -->
                             <TextBlock Text="Preferred Authors?" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="AuthorTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="AuthorTextBox" Margin="5 0 5 0" />
 
                             <!-- Radio buttons for book format. -->
                             <TextBlock Text="Book Format" Padding="5" FontWeight="Bold" />
@@ -113,7 +113,7 @@
 
                             <!-- Reading Program (can be blank) -->
                             <TextBlock Text="Reading Program" ToolTip="Can be blank. Not always applicable." Padding="5" FontWeight="Bold" />
-                            <ComboBox x:Name="ProgramDropDown" Margin="5 0 0 0" >
+                            <ComboBox x:Name="ProgramDropDown" Margin="5 0 5 0" >
                                 <ComboBoxItem>Summer</ComboBoxItem>
                                 <ComboBoxItem>Winter</ComboBoxItem>
                                 <ComboBoxItem>Early Readers</ComboBoxItem>
@@ -122,13 +122,13 @@
                             
                             <!-- Primary phone # -->
                             <TextBlock Text="Phone Number" Padding="5" Margin=" 0 3 0 0"  FontWeight="Bold" />
-                            <TextBox x:Name="PhoneTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="PhoneTextBox" Margin="5 0 5 0" />
 
                             <!-- Primary email address -->
                             <TextBlock Text="Email" Padding="5" FontWeight="Bold" />
-                            <TextBox x:Name="EmailTextBox" Margin="5 0 0 0" />
+                            <TextBox x:Name="EmailTextBox" Margin="5 0 5 0" />
 
-                            <Button x:Name="ResetButton" Click="ResetButton_Click" Margin="25 15 25 0" Content="Reset" />
+                            <Button x:Name="ResetButton" Click="ResetButton_Click" Margin="25 15 25 0" Content="Reset" Background="White"/>
                         </StackPanel>
 
                     </Grid>
@@ -136,7 +136,7 @@
 
                 <!-- Tab for returning a book. -->
                 <TabItem Header="Return">
-                    <Grid Background="#FFE5E5E5">
+                    <Grid Background="#FF9B96EA">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="*" />
@@ -181,11 +181,11 @@
                             <TextBlock Text="Comments" ToolTip="Anything else?" Padding="5" FontWeight="Bold" />
                             <TextBox x:Name="CommentsReturnTextBox" Margin="5 0 0 0" />
 
-                            <Button x:Name="Submit2Button" Click="Submit2Button_Click" Margin="25 15 110 0" Content="Submit" />
+                            <Button x:Name="Submit2Button" Click="Submit2Button_Click" Margin="25 15 110 0" Content="Submit" Background="White" />
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">
-                            <Button x:Name="Reset2Button" Click="Reset2Button_Click" Margin="5 355 10 0" Content="Reset"/>
+                            <Button x:Name="Reset2Button" Click="Reset2Button_Click" Margin="5 355 10 0" Content="Reset" Background="White"/>
                         </StackPanel>
                     </Grid>
                 </TabItem>
