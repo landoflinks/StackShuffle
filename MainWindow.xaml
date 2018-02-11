@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StackShuffle"
         mc:Ignorable="d"
-        Title="StackShuffle" Height="485" Width="400" Background="#FF9B96EA">
+        Title="StackShuffle" Height="485" Width="400" Background="#FF9B96EA" Icon="bookIcon.png">
 
     <Border Padding="5">
         <StackPanel>
