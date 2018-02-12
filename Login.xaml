@@ -17,7 +17,11 @@
             
             <!-- Username -->
             <TextBlock Text="Username" Margin="0 50 0 0" Padding="5" FontWeight="Bold" FontSize="16" />
-            <TextBox x:Name="NameTextBox" Margin="5 0 5 0" Background="white" />
+            <TextBox x:Name="UsernameTextBox" Margin="5 0 5 0" Background="white" />
+
+            <!-- Password -->
+            <TextBlock Text="Password" Margin="0 5 0 0" Padding="5" FontWeight="Bold" FontSize="16" />
+            <PasswordBox x:Name="PasswordBox" Margin="5 0 5 0" Background="white" />
         </StackPanel>
 
         <!-- StackPanel for narrower right column. -->
