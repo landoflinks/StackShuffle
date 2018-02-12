@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StackShuffle"
         mc:Ignorable="d"
-        Title="Login" Height="300" Width="500">
+        Title="Login" Height="300" Width="500" Icon="bookIcon.png">
     <Grid>
-        
+        <!-- Declaring Grid Columns -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="*" />
+            
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
