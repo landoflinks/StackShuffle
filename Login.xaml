@@ -14,7 +14,13 @@
         </Grid.ColumnDefinitions>
         <!-- StackPanel for wider left column. -->
         <StackPanel Grid.Column="0">
-            
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF9B96EA" Offset="0.92"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+
             <!-- Username -->
             <TextBlock Text="Username" Margin="0 50 0 0" Padding="5" FontWeight="Bold" FontSize="16" />
             <TextBox x:Name="UsernameTextBox" Margin="5 0 5 0" Background="white" />
@@ -26,7 +32,7 @@
 
         <!-- StackPanel for narrower right column. -->
         <StackPanel Grid.Column="1">
-            
+
         </StackPanel>
     </Grid>
 </Window>
