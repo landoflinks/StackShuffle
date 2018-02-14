@@ -5,11 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StackShuffle"
         mc:Ignorable="d"
-        Title="StackShuffle" Height="485" Width="400" Background="#FF9B96EA" Icon="bookIcon.png">
+        Title="StackShuffle" Height="485" Width="400" Icon="bookIcon.png">
+    <Window.Background>
+        <ImageBrush ImageSource="books.PNG" Opacity="0.75"/>
+    </Window.Background>
 
     <Border Padding="5">
         <StackPanel>
-            <TabControl Height="420" Margin="0 0 0 2" Background="#FF919AC7" BorderThickness="2" BorderBrush="DarkGray">
+            <TabControl Height="420" Margin="0 0 0 2" Background="#FF919AC7" BorderThickness="2" BorderBrush="White">
                 <!-- Tab for borrowing a book. -->
                 <TabItem Header="Borrow" Background="White">
                     <Grid Background="#FF9B96EA">
@@ -86,7 +89,7 @@
 
                         <!-- StackPanel for second column/row. -->
                         <StackPanel Grid.Column="1">
-                            
+
                             <!-- Checkbox area for sub-genres. -->
                             <TextBlock Text="Sub-Genres" Padding="5" FontWeight="Bold" />
                             <CheckBox x:Name="MysteryCheckbox" Content="Mystery" Margin="5 0 0 0" />
@@ -119,7 +122,7 @@
                                 <ComboBoxItem>Early Readers</ComboBoxItem>
                                 <ComboBoxItem>Library Book Club</ComboBoxItem>
                             </ComboBox>
-                            
+
                             <!-- Primary phone # -->
                             <TextBlock Text="Phone Number" Padding="5" Margin=" 0 3 0 0"  FontWeight="Bold" />
                             <TextBox x:Name="PhoneTextBox" Margin="5 0 5 0" Background="white" />
@@ -141,7 +144,7 @@
                             <ColumnDefinition Width="2*" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        
+
                         <StackPanel Grid.Column="0">
                             <!-- Book title -->
                             <TextBlock Text="Book Title" Padding="5" FontWeight="Bold" />
