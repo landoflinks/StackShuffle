@@ -23,5 +23,10 @@ namespace StackShuffle
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

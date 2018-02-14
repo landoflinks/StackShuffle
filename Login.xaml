@@ -28,6 +28,9 @@
             <!-- Password -->
             <TextBlock Text="Password" Margin="0 5 0 0" Padding="5" FontWeight="Bold" FontSize="16" />
             <PasswordBox x:Name="PasswordBox" Margin="5 0 5 0" Background="white" />
+
+            <!-- Login button -->
+            <Button x:Name="LoginButton" Click="LoginButton_Click"  Margin="65 15 65 0" Content="Login" Background="White"/>
         </StackPanel>
 
         <!-- StackPanel for narrower right column. -->
