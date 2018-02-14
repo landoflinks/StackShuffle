@@ -41,7 +41,7 @@
                     <GradientStop Color="#FF9B96EA" Offset="0.92"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <Image Source="books.PNG" Height="270.741"/>
+            <Image Source="books.PNG" Height="270.741" Opacity="0.5"/>
         </StackPanel>
     </Grid>
 </Window>
