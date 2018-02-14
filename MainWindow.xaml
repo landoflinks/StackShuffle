@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="StackShuffle" Height="485" Width="400" Icon="bookIcon.png">
     <Window.Background>
-        <ImageBrush ImageSource="books.PNG" Opacity="0.75"/>
+        <ImageBrush ImageSource="books.PNG" Opacity="0.5"/>
     </Window.Background>
 
     <Border Padding="5">
         <StackPanel>
-            <TabControl Height="420" Margin="0 0 0 2" Background="#FF919AC7" BorderThickness="2" BorderBrush="White">
+            <TabControl Height="420" Margin="0 0 0 2" Background="#FF919AC7" BorderThickness="2" BorderBrush="White" Opacity="0.9">
                 <!-- Tab for borrowing a book. -->
                 <TabItem Header="Borrow" Background="White">
                     <Grid Background="#FF9B96EA">
@@ -193,7 +193,7 @@
                     </Grid>
                 </TabItem>
             </TabControl>
-            <TextBlock Text="Copyright Library Freaks, Inc. circa 2018. All rights reserved." FontSize="10" FontWeight="Bold" />
+            <TextBlock Text="Copyright Library Freaks, Inc. circa 2018. All rights reserved." FontSize="10" FontWeight="Bold" Foreground="White" />
         </StackPanel>
     </Border>
 </Window>
