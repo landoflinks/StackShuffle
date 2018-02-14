@@ -24,9 +24,10 @@ namespace StackShuffle
             InitializeComponent();
         }
 
+        // This allows the user to login to the application.
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
